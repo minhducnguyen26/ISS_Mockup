@@ -1,6 +1,8 @@
 <template>
     <div class="my_social_contact_wrapper">
-        <!-- TODO: Soical Contact infos go here -->
+       <div class="main_contact_button">
+           <img src="../assets/chat_bubbles.png" alt="Chat Bubbles">
+       </div>
     </div>
 </template>
 

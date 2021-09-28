@@ -6,7 +6,14 @@
         <MyEventsCalendar></MyEventsCalendar>
         <MyTestimonial></MyTestimonial>
         <MySocialContact></MySocialContact>
-        <MyContactUs></MyContactUs>
+        
+        <div class="office_hours_wrapper">
+            <img src="../assets/office_hours.png" alt="Office Hours">
+        </div>
+
+        <div class="contact_us_wrapper">
+            <img src="../assets/contact_us.png" alt="Contact Us">
+        </div>
     </div>
 </template>
 
@@ -17,7 +24,6 @@ import MyDescription from "../components/MyDescription.vue"
 import MyEventsCalendar from "../components/MyEventsCalendar.vue"
 import MyTestimonial from "../components/MyTestimonials.vue"
 import MySocialContact from "../components/MySocialContact.vue"
-import MyContactUs from "../components/MyContactUs.vue"
 
 export default {
     components: {
@@ -26,8 +32,7 @@ export default {
         MyDescription,
         MyEventsCalendar,
         MyTestimonial,
-        MySocialContact,
-        MyContactUs
+        MySocialContact
     }
 }
 </script>
@@ -35,5 +40,15 @@ export default {
 <style scoped>
 .home_page_wrapper {
     margin: 0 20%;
+}
+
+.contact_us_wrapper > img,
+.office_hours_wrapper > img{
+    width: 112%;
+    margin: 0px -65px;
+}
+
+.office_hours_wrapper > img {
+    margin-top: 30px;
 }
 </style>
