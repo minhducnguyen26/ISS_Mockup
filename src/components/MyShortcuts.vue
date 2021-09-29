@@ -17,8 +17,8 @@
         </div>
 
         <div class="social_media_list_wrapper" v-if="show_social_media_list">
-            <i class="lab la-instagram"></i>
             <i class="lab la-facebook-f"></i>
+            <i class="lab la-instagram"></i>
             <i class="lab la-whatsapp"></i>
             <i class="lab la-youtube"></i>
         </div>

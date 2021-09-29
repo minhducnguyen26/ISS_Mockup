@@ -88,7 +88,8 @@ export default {
 }
 
 .section_title {
-    font-size: 25px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .header_text {
@@ -124,7 +125,7 @@ export default {
 .tracking_dots {
     display: flex;
     justify-content: center;
-    margin: 30px 0;
+    margin: 60px 0 30px;
     cursor: pointer;
 }
 

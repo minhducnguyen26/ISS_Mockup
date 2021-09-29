@@ -3,7 +3,7 @@
         <MyNavBar></MyNavBar>
         <MyBanner></MyBanner>
         <MyDescription></MyDescription>
-        <MyEventsCalendar></MyEventsCalendar>
+        <MyChartAndStats></MyChartAndStats>
         <MyTestimonial></MyTestimonial>
         <MyShortcuts></MyShortcuts>
         
@@ -21,7 +21,7 @@
 import MyNavBar from "../components/MyNavBar.vue"
 import MyBanner from "../components/MyBanner.vue"
 import MyDescription from "../components/MyDescription.vue"
-import MyEventsCalendar from "../components/MyEventsCalendar.vue"
+import MyChartAndStats from "../components/MyChartAndStats.vue"
 import MyTestimonial from "../components/MyTestimonials.vue"
 import MyShortcuts from "../components/MyShortcuts.vue"
 
@@ -30,7 +30,7 @@ export default {
         MyNavBar,
         MyBanner,
         MyDescription,
-        MyEventsCalendar,
+        MyChartAndStats,
         MyTestimonial,
         MyShortcuts
     }

@@ -58,7 +58,7 @@ export default {
 .nav_button_style {
     background-color: var(--main-red);
     color: white;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 5px 35px;
     font-size: 20px;
