@@ -18,7 +18,7 @@
 
 @media only screen and (max-width: 1280px) {
     .home_page_wrapper {
-        margin: 0 5% !important;
+        margin: 0 5% 60px !important;
     }
     .normal_button_style {
         font-size: 17px !important;

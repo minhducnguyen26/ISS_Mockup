@@ -5,7 +5,7 @@
         <MyDescription></MyDescription>
         <MyEventsCalendar></MyEventsCalendar>
         <MyTestimonial></MyTestimonial>
-        <MySocialContact></MySocialContact>
+        <MyShortcuts></MyShortcuts>
         
         <div class="office_hours_wrapper">
             <img src="../assets/office_hours.png" alt="Office Hours">
@@ -23,7 +23,7 @@ import MyBanner from "../components/MyBanner.vue"
 import MyDescription from "../components/MyDescription.vue"
 import MyEventsCalendar from "../components/MyEventsCalendar.vue"
 import MyTestimonial from "../components/MyTestimonials.vue"
-import MySocialContact from "../components/MySocialContact.vue"
+import MyShortcuts from "../components/MyShortcuts.vue"
 
 export default {
     components: {
@@ -32,14 +32,15 @@ export default {
         MyDescription,
         MyEventsCalendar,
         MyTestimonial,
-        MySocialContact
+        MyShortcuts
     }
 }
 </script>
 
 <style scoped>
 .home_page_wrapper {
-    margin: 0 20%;
+    margin: 0 20% 60px;
+    position: relative;
 }
 
 .contact_us_wrapper > img,
